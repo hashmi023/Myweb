@@ -1,0 +1,187 @@
+/* Home page styling */
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+  width: 93%;
+  margin: auto;
+}
+.container-80{
+  width: 80%;
+  margin: auto;
+}
+.gap{
+  gap: 20px;
+}
+.d-flex{
+  display: flex;
+}
+.a-i-c{
+  align-items: center;
+}
+.j-c-c{
+  justify-content: center;
+}
+.j-c-s-a{
+  justify-content: space-around;
+}
+.j-c-s-e{
+  justify-content: space-evenly;
+}
+ul li a{
+  text-decoration: none;
+}
+ul li{
+  list-style: none;
+}
+/* basics elements end */
+
+/* header start */
+header ul li a svg{
+  height: 20px;
+}
+header{
+  background:linear-gradient(to right,red ,black);
+  height: 40px;
+}
+header ul li a svg:hover{
+  color: white;
+  background-color: yellow;
+}
+header ul li a {
+  color: white;
+}
+header ul li a:hover{
+  color: yellow;
+}
+.size-image{
+  width: 300px;
+}
+.bg-whitesmoke{
+  background-color: whitesmoke;
+}
+.a-header ul li a{
+  color: blueviolet;
+}
+.a-header ul li a:hover{
+  color: yellow;
+}
+/* header end */
+
+/* slider start */
+.bg-pic{
+  background-image: url(/media/Elix-Cade.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.text h2{
+  color: white;
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+/* slider end */
+
+/* mainsection 1 is start */
+.bg-1{
+  margin-top: 50px;
+  background-color: bisque;
+  align-items: center;
+  height: 400px;
+}
+.f-direction{
+  flex-direction: column;
+}
+button{
+  background-color: bisque;
+  height: 50px;
+  width: 140px;
+}
+/* main section 1 is end */
+
+/* section2 is start */
+.bg-2{
+  margin-top: 50px;
+  border: 20px;
+  /* height: 400px; */
+  align-items: center;
+  color: chocolate;
+  border: solid bisque;
+}
+/* section2 is end */
+
+/* cards backround secrion */
+.bg-3{
+  margin-top: 50px;
+  background-image: url(/media/mobile-feed-zone.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  display: grid;
+  place-items: center; 
+}
+/* cards backround end */
+
+/* cards section start */
+.cards {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1em;
+  background-color: transparent;
+}
+.card {
+  background-color: gray;
+  border: 1px solid #ddd;
+  margin: 1em;
+  padding: 1em;
+  text-align: center;
+  width: calc(48% - 4em);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.cards h3{
+  color: bisque;
+}
+.cards h2{
+  color: white;
+}
+.cards p{
+  color: white;
+}
+/* cards area end */
+
+/* footer start */
+
+footer{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background:linear-gradient(to right,red ,black);
+}
+footer img{
+  
+  width: 300px;
+}
+.gaps{
+  gap: 100px;
+}
+footer ul li a{
+  color: white;
+}
+.margin-1{
+  margin-top: 40px;
+}
+footer ul li a:hover{
+  color: yellow;
+}
+/* footer ennd */
+
+/* the form page is make on bootstrap it was my 1st time to use bootstrap */
+
+/* BEST OF LUCK */
